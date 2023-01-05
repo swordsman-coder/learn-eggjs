@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev --env=prod",
+    "debug": "egg-bin debug"
   },
   "keywords": [],
   "author": "",
@@ -16,3 +17,4 @@
     "egg-bin": "^5.10.0"
   }
 }
+
